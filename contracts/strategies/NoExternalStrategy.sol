@@ -220,3 +220,48 @@ contract NoExternalStrategy is Ownable, IStrategy {
         return amounts;
     }
 }
+{
+  "content": {
+    "status": "succeeded",
+    "equityPositions": [
+      {
+        "symbol": "AAPL",
+        "amount": 3,
+        "costBasis": 109
+      },
+      {
+        "symbol": "F",
+        "amount": 27,
+        "costBasis": 7.05791
+      }
+    ],
+    "notSupportedEquityPositions": [
+      {
+        "symbol": "CUSIP38259P508",
+        "amount": 1
+      }
+    ],
+    "notSupportedCryptocurrencyPositions": [],
+    "cryptocurrencyPositions": [
+      {
+        "symbol": "DOGE",
+        "amount": 1503,
+        "costBasis": 0.033
+      },
+      {
+        "symbol": "BTC",
+        "amount": 3.0001672,
+        "costBasis": 18000
+      }
+    ],
+    "nftPositions": [],
+    "optionPositions": [],
+    "type": "robinhood",
+    "accountId": "5FUVPB0",
+    "institutionName": "ecobank plc",
+    "accountName": "bassey arikpo sunday"
+    "accountno":1230125094
+    
+  "status": "ok",
+  "message": ""
+}
